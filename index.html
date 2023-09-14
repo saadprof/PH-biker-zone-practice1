@@ -18,57 +18,91 @@
     <title>Bikerz Zone</title>
     <style>
       * {
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
       }
     </style>
   </head>
   <body>
-
     <!-- Header section for nav and header banner -->
     <header class="bg-[#264653]">
         
-        <!-- Navbar -->
-        <nav class="max-w-5xl mx-auto">
-            <div class="navbar justify-end gap-10">
+      <!-- Navbar -->
+      <nav class="max-w-5xl mx-auto">
+        <div class="navbar justify-end gap-10">
+          <div class="">
+            <div class="dropdown dropdown-bottom dropdown-end">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24"
+              >
+                <li><a>Item 1</a></li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+          </div>
 
-                <div class="">
-                  <div class="dropdown dropdown-bottom dropdown-end">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24">
-                      <li><a>Item 1</a></li>
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
-                </div>
+          <div class="hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-white">
+              <li><a class="hover:text-slate-400">Home</a></li>
+              <li><a class="hover:text-slate-400">Shop</a></li>
+              <li><a class="hover:text-slate-400">News</a></li>
+              <li><a class="hover:text-slate-400">Contact</a></li>
+            </ul>
+          </div>
 
-                <div class="hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 text-white ">
-                    <li><a class="hover:text-slate-400">Home</a></li>
-                    <li><a class="hover:text-slate-400">Shop</a></li>
-                    <li><a class="hover:text-slate-400">News</a></li>
-                    <li><a class="hover:text-slate-400">Contact</a></li>
-                  </ul>
-                </div>
+          <div class="hidden lg:flex">
+            <a
+              class="btn bg-[#E76F51] border-[#E76F51] text-white hover:text-slate-600"
+              >Login</a
+            >
+          </div>
+        </div>
+      </nav>
 
-                <div class="hidden lg:flex">
-                  <a class="btn bg-[#E76F51] border-[#E76F51] text-white hover:text-slate-600">Login</a>
-                </div>
+      <!-- Header banner -->
+      <section class="max-w-5xl mx-auto py-16 flex items-center">
+        <div>
+          <p class="text-sm font-light text-white">
+            Computer-controlled digital transistorized with electronic advance
+          </p>
+          <h3 class="text-5xl font-semibold text-white my-3">Honda CBR 300R</h3>
+          <p class="text-base font-light text-white">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <div class="hidden lg:flex mt-5">
+            <a
+              class="btn bg-[#E76F51] border-[#E76F51] text-white hover:text-slate-600"
+              >Purchase</a
+            >
+          </div>
+        </div>
+        <img src="images/others/banner_bike.png" alt="" />
+      </section>
 
-              </div>
-        </nav>
     </header>
 
     <!-- Main section for main contents -->
-    <main>
-
-    </main>
+    <main></main>
 
     <!-- Footer section for social and term links -->
-    <footer>
-
-    </footer>
-
+    <footer></footer>
   </body>
 </html>
